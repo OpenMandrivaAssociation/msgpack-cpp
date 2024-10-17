@@ -5,7 +5,7 @@ Version:	6.1.0
 Release:	2
 Source0: https://github.com/msgpack/msgpack-c/archive/cpp-%{version}.tar.gz
 Summary: MessagePack implementation for C++
-URL: http://msgpack.org/
+URL: https://msgpack.org/
 License: Apache 2.0
 Group: System/Libraries
 BuildRequires: cmake
