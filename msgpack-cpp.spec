@@ -1,8 +1,8 @@
 %define devname %mklibname msgpack-cpp -d
 
 Name: msgpack-cpp
-Version:	6.1.0
-Release:	2
+Version:	8.0.0
+Release:	1
 Source0: https://github.com/msgpack/msgpack-c/archive/cpp-%{version}.tar.gz
 Summary: MessagePack implementation for C++
 URL: https://msgpack.org/
@@ -35,7 +35,7 @@ Small integers are encoded into a single byte, and typical short strings
 require only one extra byte in addition to the strings themselves.
 
 %prep
-%autosetup -p1 -n msgpack-c-cpp-%{version}
+%autosetup -p1 -n msgpack-c-cpp-8.0.0
 %cmake \
 	-DMSGPACK_CXX20=ON \
 	-DMSGPACK_BUILD_EXAMPLES=OFF \
