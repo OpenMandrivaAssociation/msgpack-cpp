@@ -8,6 +8,7 @@ Summary: MessagePack implementation for C++
 URL: https://msgpack.org/
 License: Apache 2.0
 Group: System/Libraries
+BuildRequires: make
 BuildRequires: cmake
 BuildRequires: boost-devel
 BuildArch: noarch
